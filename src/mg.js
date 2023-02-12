@@ -1,8 +1,8 @@
-pictures = ["../resources/amogus.jpg", "../resources/apple.png", "../resources/ares.jpg", "../resources/carrot.png", "../resources/charmender.jpg",
-"../resources/fish.jpg", "../resources/heart.jpg", "../resources/istanbul.png", "../resources/moby dick.png", "../resources/pikachu.png", "../resources/ryuk pixel art.jpg",
-"../resources/watermelon.jpg", "../resources/amogus.jpg", "../resources/apple.png", "../resources/ares.jpg", "../resources/carrot.png", "../resources/charmender.jpg",
-"../resources/fish.jpg", "../resources/heart.jpg", "../resources/istanbul.png", "../resources/moby dick.png", "../resources/pikachu.png", "../resources/ryuk pixel art.jpg",
-"../resources/watermelon.jpg", ]
+pictures = ["resources/amogus.jpg", "resources/apple.png", "resources/ares.jpg", "resources/carrot.png", "resources/charmender.jpg",
+"resources/fish.jpg", "resources/heart.jpg", "resources/istanbul.png", "resources/moby dick.png", "resources/pikachu.png", "resources/ryuk pixel art.jpg",
+"resources/watermelon.jpg", "resources/amogus.jpg", "resources/apple.png", "resources/ares.jpg", "resources/carrot.png", "resources/charmender.jpg",
+"resources/fish.jpg", "resources/heart.jpg", "resources/istanbul.png", "resources/moby dick.png", "resources/pikachu.png", "resources/ryuk pixel art.jpg",
+"resources/watermelon.jpg", ]
 
 let selectedBlocks = [];
 let controler = 0;
@@ -30,7 +30,7 @@ function flipper(firstBlock, secondBlock){
 
 
 function cardSetup(card){
-    card.setAttribute("back", "../resources/colorfulpixel.jpg");
+    card.setAttribute("back", "resources/colorfulpixel.jpg");
     card.setAttribute("visible", "false");
     console.log(card)
     let generatedNum = numberGenerator(usedOnes);
