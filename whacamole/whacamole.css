@@ -1,0 +1,26 @@
+body{
+    margin : 0;
+    display: grid;
+    place-items: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.container{
+    background-color: yellow;
+    display: grid;
+    width : 300px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    margin-top : 15px;
+}
+.image{
+    background-color: black;
+    color : whitesmoke;
+    border : 5px solid red;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    
+
+}
