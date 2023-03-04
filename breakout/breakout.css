@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-image: url("https://media.istockphoto.com/videos/video-footage-motion-of-shinny-stars-animation-on-black-motion-video-id1194080385?b=1&k=20&m=1194080385&s=640x640&h=sZWACvXYn2SD_fJrixJCWjUEaGF7JZAPpThjOrKWWwE=");
+}
+#container{
+    display: grid;
+    margin: 100px auto;
+    border: 4px yellow solid;
+    width: 500px;
+    height: 500px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5,1fr);
+    column-gap: 20px;
+    
+}
+.box{
+    background-color: white;
+    height: 20px;
+}
+#user{
+    position: absolute;
+    background-color: white;
+    height: 10px;
+    width: 100px;
+    border-radius: 30% 30% 0 0;
+}
+/* .obstacle3{
+    background-color: red;
+    height: 10px;
+    grid-area: 3/ 3/ 3/ 4;
+    align-self: center;
+    border-top: yellow solid 5px;
+    border-radius: 30% 30% 0 0;
+} */
+#ball{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
