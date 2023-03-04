@@ -104,7 +104,7 @@ function userMove(event){
         user.style.marginLeft = `${marginBeforePressed + 10}px `
     }
 }
-user.addEventListener("keydown", (event) => userMove(event))
+document.addEventListener("keydown", (event) => userMove(event))
 console.log(container.offsetHeight)
 
 
